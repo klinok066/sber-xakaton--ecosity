@@ -111,6 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Карты" />
         </FrameLayout>
 
@@ -123,6 +124,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="события" />
         </FrameLayout>
 
@@ -135,6 +137,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="главная" />
         </FrameLayout>
 
@@ -147,6 +150,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="обращения" />
         </FrameLayout>
 
@@ -159,6 +163,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="профиль" />
         </FrameLayout>
 
@@ -178,15 +183,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.1"
+            android:gravity="center"
             android:text="Новости"
-            android:textSize="22sp" />
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:text="архив" />
     </LinearLayout>
 
     <ScrollView
